@@ -30,7 +30,6 @@ public class ProgramMain {
         qs.callquicksort(input);
 
         System.out.println();
-
         System.out.print("dupa sortare array crescator:");
         for (int i = 0; i < input.length; i++) {
             System.out.print(input[i] + " ");
