@@ -8,7 +8,7 @@ public class ProgramMain {
         QuickSort qs = new QuickSort();
 
         //array dat de user
-        int input[]={24,2,45,20,56,75,2,56,99,53};
+        int input[]={24,2,45,20,56,75,2,56,99,0};
         //int input[]={};
 
         //int input[] = new int[10];
@@ -31,14 +31,14 @@ public class ProgramMain {
 
         System.out.println();
 
-        System.out.print("dupa sortare array descrescator:");
-        for (int i = input.length - 1; i >= 0; i--) {
+        System.out.print("dupa sortare array crescator:");
+        for (int i = 0; i < input.length; i++) {
             System.out.print(input[i] + " ");
         }
 
         System.out.println();
-        System.out.print("dupa sortare array crescator:");
-        for (int i = 0; i < input.length; i++) {
+        System.out.print("dupa sortare array descrescator:");
+        for (int i = input.length - 1; i >= 0; i--) {
             System.out.print(input[i] + " ");
         }
 
