@@ -1,6 +1,4 @@
-import static java.lang.Math.random;
-
-import java.util.Scanner;
+package QuickSort;
 
 public class ProgramMain {
 
