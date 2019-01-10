@@ -8,7 +8,7 @@ public class ProgramMain {
         QuickSort qs = new QuickSort();
 
         //array dat de user
-//        int input[]={24,2,45,20,56,75,2,56,99,0};
+        //int input[]={24,2,45,20,56,75,2,56,99,0};
         //int input[]={};
 
         int input[] = new int[10];
@@ -27,6 +27,7 @@ public class ProgramMain {
         for (int z : input)
             System.out.print(z + " ");
 
+        System.out.println();
         qs.callquicksort(input);
 
         System.out.println();
@@ -40,6 +41,6 @@ public class ProgramMain {
         for (int i = input.length - 1; i >= 0; i--) {
             System.out.print(input[i] + " ");
         }
-
+        System.out.println();
     }
 }

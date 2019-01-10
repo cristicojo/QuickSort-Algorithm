@@ -5,21 +5,15 @@ public class QuickSort {
     private int length;
     private int array[];
 
-    int callquicksort(int userInput[]) {
-
-        //verificam sa nu avem array fara elem sau lungimea array sa nu fie 0
-        if (userInput == null || userInput.length == 0) {
-            return 1;
-        }
+    public void callquicksort(int userInput[]) {
 
         this.array = userInput;
         this.length = userInput.length;
 
         quicksort(0, length - 1);
-        return 0;
     }
 
-    public void quicksort(int lowerIndex, int higherIndex) {
+    private void quicksort(int lowerIndex, int higherIndex) {
 
 
         int indexMic = lowerIndex;
@@ -63,7 +57,7 @@ public class QuickSort {
         }
     }
 
-    public void exchangeNumbers(int i, int j) {
+    private void exchangeNumbers(int i, int j) {
         int temp = array[i];
         array[i] = array[j];
         array[j] = temp;
