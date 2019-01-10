@@ -1,24 +1,26 @@
 package QuickSort;
 
+import static java.lang.Math.random;
+
 public class ProgramMain {
 
     public static void main(String[] args) {
         QuickSort qs = new QuickSort();
 
         //array dat de user
-        int input[]={24,2,45,20,56,75,2,56,99,0};
+//        int input[]={24,2,45,20,56,75,2,56,99,0};
         //int input[]={};
 
-        //int input[] = new int[10];
+        int input[] = new int[10];
         //Scanner s = new Scanner(System.in);
-        //for (int i = 0; i < input.length; i++) {
+        for (int i = 0; i < input.length; i++) {
             //array dat de la tastatura
             //System.out.print("input[" + i + "]=");
             //input[i] = s.nextInt();
 
             //random array
-            //input[i] = (int) (random() * 100);
-        //}
+            input[i] = (int) (random() * 20);
+        }
 
 
         System.out.print("inainte de sortare:");
